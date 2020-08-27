@@ -1,0 +1,5 @@
+encrypt:
+  key-store:
+    location: classpath:/keystore.p12
+    alias: tomcat
+    password: password
