@@ -13,6 +13,7 @@ spring:
           enabled: false
         git:
           uri: https://github.com/rs-rodriguez/ConfigServer.git
+          timeout: 600
 server:
   port: 8888
 
