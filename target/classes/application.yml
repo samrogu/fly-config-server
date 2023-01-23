@@ -1,0 +1,21 @@
+
+spring:
+  security:
+    user:
+      name: root 
+      password: s3cr3t
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        encrypt:
+          enabled: false
+        git:
+          uri: https://github.com/rs-rodriguez/ConfigServer.git
+          timeout: 600
+server:
+  port: 8888
+
+  servlet:
+    context-path: /fly-config-server
